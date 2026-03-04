@@ -1,6 +1,8 @@
 # Maine Amenities Spatial Analysis (PostGIS + QGIS)
 
-Spatial analysis of Maine **schools** versus public amenities (**fire stations, police stations, hospitals**) using **PostgreSQL/PostGIS** and **QGIS**.
+## Project Goal
+
+Spatial distribution analysis of Maine **schools** relative to critical public amenities (**fire stations, police stations, hospitals**) using **PostgreSQL/PostGIS** and **QGIS**.
 
 ## Questions explored
 - Total counts of each amenity type
@@ -10,6 +12,36 @@ Spatial analysis of Maine **schools** versus public amenities (**fire stations, 
 - Ratios of schools to each amenity type
 - Example spatial filters (Bangor area bounding box)
 - Proximity checks (closest/furthest examples)
+
+## Data Sources
+
+Spatial datasets used in this project were obtained from publicly available Maine GIS repositories.
+
+Primary sources:
+
+- Maine GeoLibrary Data Catalog  
+  https://www.maine.gov/geolib/catalog.html
+
+Datasets downloaded from the GeoLibrary:
+
+- Maine Town and Townships Boundary Polygons Feature
+- Maine E911 Addresses Feature – Fire Stations
+- Maine E911 Addresses Feature – Hospitals
+- Maine E911 Addresses Feature – Law Enforcement
+
+Additional dataset:
+
+- Maine Schools GeoLibrary  
+  https://arc-gis-hub-home-arcgishub.hub.arcgis.com/datasets/maine::maine-schools-geolibrary/about
+
+## Data Preparation Workflow
+
+1. Loaded OpenStreetMap basemap in QGIS for geographic reference.
+2. Downloaded shapefiles from the Maine GeoLibrary and ArcGIS Hub.
+3. Verified coordinate reference systems and dataset integrity.
+4. Imported shapefiles into a PostgreSQL database using the QGIS DB Manager.
+5. Enabled the PostGIS extension to support spatial queries.
+6. Performed spatial analysis using PostGIS SQL queries.
 
 ## Files
 - `sql/postgres_postgis.sql` – Primary PostGIS queries (counts, spatial joins, ratios, Bangor subset, proximity)
