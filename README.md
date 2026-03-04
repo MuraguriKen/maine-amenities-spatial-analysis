@@ -31,7 +31,7 @@ Datasets downloaded from the GeoLibrary:
 
 Additional dataset:
 
-- Maine Schools GeoLibrary  
+- Maine Schools GeoLibrary  (Now moved/deleted)
   https://arc-gis-hub-home-arcgishub.hub.arcgis.com/datasets/maine::maine-schools-geolibrary/about
 
 ## Data Preparation Workflow
