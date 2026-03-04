@@ -14,7 +14,9 @@ Spatial distribution analysis of Maine **schools** relative to critical public a
 - Proximity checks (closest/furthest examples)
 
 ## Map Preview
-The preview shows the schools in Maine, and some of the closest and farthest amenities. For instance, On the North East corner of Maine are two blue diamonds and two red circle with a cross. The Northern-most circle overlays on another blue diamond. This was a school that was both farthest to a hospital and police station in Maine (We can see its closest police station to its North, and the closest hospital further South. Interesting enough, the school with the closest police station is not much further south, represented by the second blue diamond (they are actually two diamonds - school and station - but they are so close that we have to zoom in farther to see). Green dots represent all schools in Maine
+The preview shows the schools in Maine, and some of the closest and farthest amenities. For instance, On the North East corner of Maine are two blue diamonds and two red circle with a cross. The Northern-most circle overlays on another blue diamond. This was a school that was both farthest to a hospital and police station in Maine (We can see its closest police station to its North, and the closest hospital further South. Interesting enough, the school with the closest police station is not much further south, represented by the second blue diamond (they are actually two diamonds - school and station - but they are so close that we have to zoom in farther to see). 
+Green dots represent all schools in Maine.
+Red bounding box is the Greater Bangor Area that had more analysis.
 
 ![Maine Amenities Map](images/maine_amenities_map.png)
 
