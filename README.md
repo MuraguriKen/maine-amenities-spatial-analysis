@@ -13,6 +13,10 @@ Spatial distribution analysis of Maine **schools** relative to critical public a
 - Example spatial filters (Bangor area bounding box)
 - Proximity checks (closest/furthest examples)
 
+## Map Preview
+
+![Maine Amenities Map](images/maine_amenities_map.png)
+
 ## Data Sources
 
 Spatial datasets used in this project were obtained from publicly available Maine GIS repositories.
