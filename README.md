@@ -51,8 +51,8 @@ Additional dataset:
 6. Performed spatial analysis using PostGIS SQL queries.
 
 ## Files
-- `sql/postgres_postgis.sql` – Primary PostGIS queries (counts, spatial joins, ratios, Bangor subset, proximity)
-- `sql/qgis_queries.sql` – Queries used inside QGIS (feature inspection, bounding box filters, closest/furthest selections)
+- `postgres_postgis.sql` – Primary PostGIS queries (counts, spatial joins, ratios, Bangor subset, proximity)
+- `qgis_queries.sql` – Queries used inside QGIS (feature inspection, bounding box filters, closest/furthest selections)
 
 ## Tools
 - PostgreSQL + PostGIS
